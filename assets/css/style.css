@@ -175,6 +175,7 @@ a {
 .hero .hero-images .course {
     position: absolute;
     top: -15px;
+    /* aaa */
     left: -40px;
     display: flex;
     align-items: center;
