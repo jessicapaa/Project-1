@@ -206,6 +206,7 @@ body {
 
     .hero .hero-images .thumb {
         width: 100%;
+        height: auto;
     }
 
     .hero .hero-images .schedules {
@@ -230,6 +231,16 @@ body {
 
     .course.top {
         margin-top: 0;
+    }
+
+    .course.top .heading.lv2 {
+        width: 100%;
+    }
+
+    .course .course-info {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 0;
     }
 
     .parameter .parameter-list {
