@@ -1,0 +1,255 @@
+/* PC */
+
+@media screen and (min-width : 992px) {
+
+    .show-on-mobile,
+    .header-mobile,
+    .menu-checkbox {
+        display: none;
+    }
+}
+
+
+/* TABLE & MOBILE */
+
+@media screen and (max-width: 991.98px) {
+    .header .nav ul {
+        display: none;
+    }
+
+    .header .body {
+        position: relative;
+    }
+
+    .header .thumb {
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menu-checkbox {
+        width: 24px;
+        color: #666;
+    }
+
+    .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.25s ease-in-out;
+    }
+
+    .drawer {
+        position: fixed;
+        inset: 0 30% 0 0;
+        z-index: 3;
+        background: #fff;
+        padding: 40px;
+        transform: translateX(-100%);
+        transition: 0.3s linear;
+    }
+
+    .drawer ul {
+        margin-top: 60px;
+    }
+
+    .drawer ul a {
+        display: block;
+        color: black;
+        font-weight: 500;
+        padding: 16px 8px;
+    }
+
+    .input-checkbox:checked~.overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .input-checkbox:checked~.drawer {
+        transform: translateX(0%);
+    }
+
+    .separate {
+        border-top: 2px solid #ebebeb;
+    }
+
+    .hero .body {
+        row-gap: 60px;
+        flex-direction: column;
+    }
+
+    .hero .hero-info .heading {
+        width: 100%;
+    }
+
+    .hero .hero-images {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero .hero-images .course {
+        right: 20px;
+        left: initial;
+    }
+
+    .hero .hero-images .schedules {
+        left: initial;
+    }
+
+    .hero .hero-info .desc {
+        width: 100%;
+    }
+
+    .feature .feature-content {
+        width: 100%;
+        /* margin-left: 0; */
+        margin-left: auto;
+    }
+
+    .course-top .desc,
+    .feature-top .desc {
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    .feature .feature-item {
+        width: 100%;
+    }
+
+    .course .course-list {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+    .course .course-item .thumb {
+        width: 100%;
+        height: 308px;
+        opacity: 1;
+    }
+
+
+    .course .course-info {
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+    }
+
+    .parameter {
+        margin-top: 0;
+    }
+
+    .feedbacks {
+        padding-top: 150px;
+    }
+
+    .feedbacks .quote .blockquote {
+        width: 100%;
+    }
+
+    .feedbacks .group-avatar {
+        display: none;
+    }
+
+    .quote .feedback-cta {
+        justify-content: center;
+    }
+
+    .call-action .row {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .call-action .row .desc {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .call-action .btn {
+        margin: 0 auto;
+    }
+
+    .footer .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+/* TABLE */
+@media screen and (min-width : 576px) and (max-width : 991.98px) {
+
+    .show-on-mobile,
+    .course-cta {
+        display: none;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width : 575.98px) {
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .hero .hero-info .heading {
+        font-size: 4.9rem;
+    }
+
+    .hero .hero-images .thumb {
+        width: 100%;
+    }
+
+    .hero .hero-images .schedules {
+        bottom: 245px;
+    }
+
+    .feature-top .heading.lv2 {
+        font-size: 4rem;
+        width: 100%;
+    }
+
+    .feature .feature-item {
+        width: auto;
+    }
+
+    .feature .feature-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 32px;
+    }
+
+    .course.top {
+        margin-top: 0;
+    }
+
+    .parameter .parameter-list {
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        row-gap: 60px;
+    }
+
+    .parameter-list h3.heading {
+        text-align: initial;
+    }
+
+    .call-action .row {
+        height: 38.2rem;
+    }
+
+    .footer .row {
+        grid-template-columns: 1fr;
+        row-gap: 45px;
+    }
+
+    .copyright .copy {
+        display: none;
+    }
+}

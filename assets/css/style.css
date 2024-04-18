@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -50,12 +51,14 @@ a {
 .header .nav ul {
     display: flex;
 }
+
 .header li .nav-item {
     padding: 8px 20px;
     color: #2f3a3b;
     font-size: 1.6rem;
     line-height: normal;
 }
+
 .header li .nav-item:hover,
 .header li .nav-item.active {
     color: #2f3a3b;
@@ -100,6 +103,7 @@ a {
 .hero {
     padding: 40px 0 80px;
 }
+
 .hero .body {
     display: flex;
     align-items: center;
@@ -115,7 +119,8 @@ a {
     color: #0d1111;
     font-size: 6.2rem;
     font-weight: 700;
-    line-height: 7.2rem; /* 116.129% */
+    line-height: 7.2rem;
+    /* 116.129% */
 }
 
 .hero .hero-info .desc {
@@ -125,10 +130,12 @@ a {
     line-height: 3.2rem;
     width: 37.4rem;
 }
+
 .hero .hero-cta {
     margin-top: 52px;
     display: flex;
 }
+
 .hero .hero-cta .btn-cta {
     padding: 16px 32px;
     margin-right: 50px;
@@ -141,6 +148,7 @@ a {
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
     border: none;
 }
+
 .hero .hero-cta .btn-cta:hover {
     cursor: pointer;
     opacity: 0.8;
@@ -157,6 +165,7 @@ a {
     background: #fff;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.1);
 }
+
 .hero .hero-cta .btn-play:hover {
     border: 2px solid var(--primary-color);
     cursor: pointer;
@@ -172,6 +181,7 @@ a {
     height: 60.1rem;
     object-fit: cover;
 }
+
 .hero .hero-images .course {
     position: absolute;
     top: -15px;
@@ -186,10 +196,12 @@ a {
     box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
     border-radius: 18px;
 }
+
 .hero .label-block {
     display: flex;
     flex-direction: column;
 }
+
 .hero .hero-avatar p,
 .hero .hero-course--label {
     color: #0d1111;
@@ -197,6 +209,7 @@ a {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
 .hero .hero-images .course::before {
     content: "";
     display: inline-block;
@@ -205,6 +218,7 @@ a {
     background: #ff8282;
     margin-right: 16px;
 }
+
 .hero .hero-images .course::after {
     content: "";
     position: absolute;
@@ -230,6 +244,7 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
 .hero .schedules p {
     margin-top: 16px;
     color: #0d1111;
@@ -256,12 +271,14 @@ a {
     background: #fefefd;
     box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
 }
+
 .hero .group-avatar {
     padding-top: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .hero .group-avatar img {
     display: inline-block;
     width: 33px;
@@ -296,23 +313,26 @@ a {
     line-height: 5.6rem;
     margin-top: 18px;
 }
+
 /* course */
 .course.top {
     padding-top: 130px;
 }
+
 .course-top .desc,
 .feature-top .desc {
     width: 57rem;
     color: #767e7e;
     line-height: 1.5;
     font-size: 1.9rem;
+    margin-top: 24px;
 }
 
 .feature .feature-list {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     gap: 30px;
 }
 
@@ -334,7 +354,8 @@ a {
     margin-top: 18px;
     color: #9da6a5;
     font-size: 1.6rem;
-    line-height: 2.7rem; /* 168.75% */
+    line-height: 2.7rem;
+    /* 168.75% */
 }
 
 .course {
@@ -363,6 +384,7 @@ a {
     padding-top: 80px;
     justify-content: space-between;
 }
+
 .course .course-item {
     position: relative;
 }
@@ -375,6 +397,7 @@ a {
     opacity: 0.7;
     background: #d0efed;
 }
+
 .course .course-list .thumb:hover {
     opacity: 1;
 }
@@ -389,11 +412,13 @@ a {
     bottom: -100px;
     margin-left: 17px;
 }
+
 .course-info .title {
     color: #0d1111;
     font-size: 2.2rem;
     font-weight: 700;
 }
+
 .course-info .title:hover {
     color: var(--primary-color);
 }
@@ -404,6 +429,7 @@ a {
     color: #767e7e;
     font-size: 1.6rem;
 }
+
 .course-info .price strong {
     color: #0d1111;
     font-size: 2.2rem;
@@ -445,12 +471,14 @@ a {
     align-items: center;
     justify-content: space-around;
 }
+
 .parameter-list h3.heading {
     color: #0d1111;
     text-align: center;
     font-size: 6.2rem;
     font-weight: 700;
 }
+
 .parameter-list p.desc {
     margin-top: 36px;
     color: #767e7e;
@@ -471,13 +499,15 @@ a {
 .open-quote {
     display: block;
 }
+
 .feedbacks .quote .blockquote {
     display: inline-block;
     width: 41.9rem;
     margin-top: 17px;
     color: #5d6564;
     font-size: 3.2rem;
-    line-height: 4.8rem; /* 150% */
+    line-height: 4.8rem;
+    /* 150% */
 }
 
 .quote .desc {
@@ -506,6 +536,7 @@ a {
     height: 0.2rem;
     background: #070707;
 }
+
 .quote .feedback-cta {
     margin-top: 52px;
     display: flex;
@@ -525,6 +556,7 @@ a {
     background: var(--primary-color);
     border-radius: 50%;
 }
+
 .feedback-cta .btn:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -535,6 +567,7 @@ a {
     width: 58%;
     height: 481px;
 }
+
 .feedbacks .group-avatar img {
     position: absolute;
     border-radius: 50%;
@@ -547,32 +580,38 @@ a {
     top: 258px;
     left: 0;
 }
+
 .feedbacks .group-avatar .small.y {
     bottom: 0;
     left: 212px;
 }
+
 .feedbacks .group-avatar .small.z {
     right: 32px;
     bottom: 29px;
 }
+
 .feedbacks .group-avatar .medium1 {
     top: 0;
     left: 144px;
     width: 92px;
     height: 92px;
 }
+
 .feedbacks .group-avatar .medium2 {
     width: 110px;
     height: 110px;
     top: 19px;
     right: 0;
 }
+
 .feedbacks .group-avatar .center {
     width: 235px;
     height: 235px;
     top: 107px;
     right: 171px;
 }
+
 .call-action {
     margin-top: 130px;
     background: #def6f5;
@@ -589,12 +628,14 @@ a {
     font-size: 4.2rem;
     font-weight: 700;
 }
+
 .call-action .row .desc {
     width: 39.7rem;
     margin-top: 32px;
     color: #767e7e;
     font-size: 1.8rem;
 }
+
 .call-action .btn {
     margin-left: 410px;
     padding: 21px 42px;
@@ -608,6 +649,7 @@ a {
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
     border: none;
 }
+
 .call-action .btn:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -633,10 +675,12 @@ a {
 .footer .column li {
     margin: 22px 0 20px;
 }
+
 .footer .column li a {
     color: #535353;
     font-size: 1.6rem;
 }
+
 .footer .column li a:hover {
     color: var(--primary-color);
 }
