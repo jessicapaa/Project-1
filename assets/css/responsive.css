@@ -1,4 +1,7 @@
 /* PC */
+body {
+    overflow-x: hidden;
+}
 
 @media screen and (min-width : 992px) {
 
@@ -37,7 +40,7 @@
         position: fixed;
         inset: 0;
         background: rgba(0, 0, 0, 0.3);
-        z-index: 2;
+        z-index: 1;
         visibility: hidden;
         opacity: 0;
         transition: 0.25s ease-in-out;
@@ -46,7 +49,7 @@
     .drawer {
         position: fixed;
         inset: 0 30% 0 0;
-        z-index: 3;
+        z-index: 2;
         background: #fff;
         padding: 40px;
         transform: translateX(-100%);
